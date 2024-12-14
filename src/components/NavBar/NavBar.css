@@ -1,0 +1,75 @@
+.nav-con{
+    width: 100%;
+    min-height: 25vh;
+}
+.lorem-con{
+    background-color: black;
+    height: 18px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lorem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.l-icon{
+    width: 18px;
+    height: 18px;
+}
+.lorem p{
+    font-size: 12px;
+    color: rgb(239, 76, 103);
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.logo-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-con h1{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-elements .icons{
+    color: black;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.elements li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.line{
+    color: black;
+    height: 1px;
+    width: 100%;
+}

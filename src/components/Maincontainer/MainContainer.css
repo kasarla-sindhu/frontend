@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    width: 100vw;
 }
 .content{
     width: 470px;
@@ -20,11 +21,16 @@
     justify-content: space-between;
     margin: 0px 20px;
 }
+.dropdown{
+    border-style: none;
+    border-width: 0px;
+}
 .filter-con{
     display: flex;
     align-items: center;
     align-items: center;
     gap: 25px;
+    margin-left: 58px;
 }
 .re-con{
     display: flex;

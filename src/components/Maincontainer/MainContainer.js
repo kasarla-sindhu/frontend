@@ -1,7 +1,9 @@
 import './MainContainer.css'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown,faChevronLeft} from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft} from '@fortawesome/free-solid-svg-icons';
+import Product from '../Products/Product';
+import Footer from '../Footer/Footer';
 
 const MainContainer = () => {
   return (
@@ -21,13 +23,22 @@ const MainContainer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='re-con'>
-                        <p>RECOMMENDED</p>
-                        <FontAwesomeIcon icon={faAngleDown} />
-                    </div>
+                <select className='dropdown'>
+                    <option>RECOMENDED</option>
+                    <option>NEWEST FIRST</option>
+                    <option>POPULAR</option>
+                    <option>PRICE: LOW TO HIGH</option>
+                    <option>PRICE: HIGH TO LOW</option>
+                </select>
                 </div>
             </div>
             <hr className='line'/>
+        </div>
+        <div>
+            <Product/>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </div>
   )
